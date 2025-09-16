@@ -1,20 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Routes from './routes';
+import { AuthProvider } from './src/context/AuthProvider';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Grupo Nós 5</Text>
-      <StatusBar style="auto" />
-    </View>
+    <AuthProvider>
+      <Routes />
+    </AuthProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
