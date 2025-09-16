@@ -3,9 +3,9 @@ import { COLORS, FONT_SIZE } from '../../constants/theme';
 
 const styles = StyleSheet.create({
     btn: {
-        width: 162,
+        width: '100%',
         height:59,
-        backgroundColor: COLORS.greenLight,
+        backgroundColor: COLORS.grayMedium,
         borderRadius: 6
         
     },

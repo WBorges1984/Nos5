@@ -16,5 +16,8 @@
     "react-native": "0.81.4",
     "react-native-linear-gradient": "^2.8.3"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@expo/metro-config": "^54.0.3"
+  }
 }

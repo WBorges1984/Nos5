@@ -13,9 +13,9 @@ export default function Inicial({navigation}) {
       <Text style={styles.textosSubTitle}>Conecte-se para curtir os melhores shows de pagode</Text>
       <View style={styles.buttons}>
       <View style={styles.btn}>
-        <Button  texto={"Continuar com Google"} onPress={()=>Alert.alert("Deverá estar logado para utilizar!")}/>
-        <Button  texto={"Continuar com Facebook"} textoErro={"Com erros"} onPress={()=>Alert.alert("Ainda será implementado.")}/>
-        <Button  texto={"Continuar com Aple"} onPress={()=>Alert.alert("Deverá estar logado para utilizar!")}/>
+        <Button icon={'google'} texto={"Continuar com Google"} onPress={()=>Alert.alert("Deverá estar logado para utilizar!")}/>
+        <Button icon={'facebook'} texto={"Continuar com Facebook"} onPress={()=>Alert.alert("Ainda será implementado.")}/>
+        <Button icon={'apple'} texto={"Continuar com Apple"} onPress={()=>Alert.alert("Deverá estar logado para utilizar!")}/>
       </View>
 
        {/* <ButtonBottom texto={"Logar"} textWhite fullW colorBackBlue onPress={()=> navigation.navigate("Login")}/> */}
