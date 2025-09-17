@@ -6,8 +6,10 @@ const styles = StyleSheet.create({
         width: '100%',
         height:59,
         backgroundColor: COLORS.grayMedium,
-        borderRadius: 6
-        
+        borderRadius: 6,
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row'
     },
     texto: {
         fontSize: FONT_SIZE[24],

@@ -1,5 +1,4 @@
 import { Text, TouchableOpacity, View } from "react-native";
-import React from "react";
 import styles from "./ButtonBottom.style.js";
 
 export default function ButtonBottom({disable, onClick, fullW, texto, textWhite, textBlue, textGreen, colorBackBlue, colorBackTrans, colorBackGray, onPress }) {

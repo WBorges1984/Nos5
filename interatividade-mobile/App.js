@@ -1,10 +1,13 @@
-import Routes from './routes';
-import { AuthProvider } from './src/context/AuthProvider';
+import Routes from "./routes";
+import { AuthProvider } from "./src/context/AuthProvider";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function App() {
   return (
-    <AuthProvider>
-      <Routes />
-    </AuthProvider>
+    <SafeAreaProvider>
+      <AuthProvider>
+        <Routes />
+      </AuthProvider>
+    </SafeAreaProvider>
   );
 }

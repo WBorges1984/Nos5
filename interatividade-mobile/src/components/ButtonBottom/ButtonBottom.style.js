@@ -6,7 +6,8 @@ const styles = StyleSheet.create({
         width: 162,
         height:31,
         backgroundColor: COLORS.greenLight,
-        borderRadius: 6
+        borderRadius: 6,
+
         
     },
     texto: {
