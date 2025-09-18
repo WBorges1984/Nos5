@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     margin:10
   },
   btn:{
-    width: "80%",
+    width: "100%",
     flexDirection:'column',
     alignItems: 'center',
     justifyContent: 'center',
