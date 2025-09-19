@@ -1,6 +1,6 @@
 
 import icons from "./icons";
-// Mapa que associa o nome do ícone ao seu source e estilo
+
 export const ICON_MAP = {
   facebook: {
     source: icons.facebook,
