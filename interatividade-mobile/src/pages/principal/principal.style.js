@@ -31,8 +31,12 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   menuBottom:{
-    width: '100%',
+    display: 'flex',
+    flexDirection: 'row',
     backgroundColor: COLORS.grayDark,
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    height: 51,
   },
 
 });

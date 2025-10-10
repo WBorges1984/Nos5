@@ -15,18 +15,21 @@ function Routes() {
         <Stack.Screen name="Inicial" component={Inicial}
           options={{
             headerShown: false,
+            animation: 'slide_from_right',
           }}
         />
 
         <Stack.Screen name="boasVindas" component={BoasVindas}
           options={{
             headerShown: false,
+            animation: 'slide_from_right',
           }}
         />
 
         <Stack.Screen name="Principal" component={Principal}
           options={{
             headerShown: false,
+            animation: 'slide_from_right',
           }}
         />
         

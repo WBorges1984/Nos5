@@ -37,7 +37,11 @@ const Principal = ({ navigation }) => {
         </View>
       </View>
       <View style={styles.menuBottom}>
-        
+        <Text>Home</Text>
+        <Text>Votação</Text>
+        <Text>Selfie</Text>
+        <Text>Ranking</Text>
+        <Text>Perfil</Text>
       </View>
     </View>
   );
